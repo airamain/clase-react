@@ -1,0 +1,9 @@
+.boca{
+    display: flex;    
+    margin: 10,0,10,0;
+    position: 0;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    width: 400%;
+}
