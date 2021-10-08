@@ -1,9 +1,7 @@
-.boca{
-    display: flex;    
-    margin: 10,0,10,0;
-    position: 0;
+.carrito{
+    display: fixed !important;   
     top: 0;
     right: 0;
     background-color: blue;
-    width: 400%;
+    width: 400PX;
 }

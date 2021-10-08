@@ -3,6 +3,7 @@ import React from 'react'
 const Productos = ({ producto, carrito, setCarrito, productos, setProductos }) => {
 
     const { nombre, precio, id } = producto
+    
     //Agregar producto al carrito
     const seleccionarProducto = (id) => {
         const product = productos.filter(

@@ -4,15 +4,16 @@ import './carrito.css'
 
 function Carrito({ carrito }) {
     return (
-        <div className="boca">
+        <div className="carrito">
             <h2>Nuestra compra</h2>
-
-            {carrito.map(producto => (
-                <Productos
-                    key={producto.id}
-                    producto={producto}
-                />
-            ))}
+            {carrito.length === 0
+                ? <p>Carrito vacio</p>
+                : carrito.map(producto => (
+                    <Productos
+                        key={producto.id}
+                        producto={producto}
+                    />
+                ))}
         </div>
     )
 }
