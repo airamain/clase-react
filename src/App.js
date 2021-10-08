@@ -33,9 +33,10 @@ function App() {
         />
       ))}
 
-        <Carrito 
+      <Carrito
         carrito={carrito}
-        />
+        setCarrito={setCarrito}
+      />
       <Footer />
     </div>
   );
